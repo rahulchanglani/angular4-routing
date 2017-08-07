@@ -1,0 +1,3 @@
+in routerLink, if "servers" or "./servers" or "../servers" is given. Then it's relative path ! PATH == It appends the path u give to the current path
+
+in routerLink, if "/servers" is given. Then it's absolute path ! PATH == It removes the current path & overwrites the path entirely given in braces

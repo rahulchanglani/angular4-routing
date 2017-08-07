@@ -1,3 +1,11 @@
 in routerLink, if "servers" or "./servers" or "../servers" is given. Then it's relative path ! PATH == It appends the path u give to the current path
 
 in routerLink, if "/servers" is given. Then it's absolute path ! PATH == It removes the current path & overwrites the path entirely given in braces
+
+
+
+RouterLinkActive directive analyzes ur current loaded path which links lead to the route which leads to the path 
+and by default it marks a element as active if it adds the css class if it contains the path u are on or if this link 
+is part of the path which is currently loaded.
+
+routerLink="/" is for all paths. So to configure this, RouterLinkActiveOptions  directive is used.

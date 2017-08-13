@@ -13,7 +13,7 @@ routerLink="/" is for all paths. So to configure this, RouterLinkActiveOptions  
 Unlike routerLink, the navigate method doesn't know on which router it's currently working on.
 ROuterlink always knows in which component's template it sets. So, it knows the currently set route it sits in.
 
-
+continue from 120
 
 
 

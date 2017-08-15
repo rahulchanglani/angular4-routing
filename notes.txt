@@ -17,6 +17,8 @@ ROuterlink always knows in which component's template it sets. So, it knows the 
 Observables are a feature added by 3rd party package used by angular which allow u to easily work with async tasks . the params might change at some point of time in future
 u dont when & if & how long will it take
 
+The params subscription using rxjs doesn't need to be unsubscribed as angular does it automatically for us
+regarding route Observables
 
 
 
